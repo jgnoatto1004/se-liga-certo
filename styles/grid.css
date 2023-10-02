@@ -1,0 +1,37 @@
+.Imagem{
+    width: 80px!important;
+    height: 60px!important;
+}
+.div-todasimagens{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    text-align: center;
+    margin-top: 25px;
+    position: inherit;
+}
+.titulo{
+    font-size: 10px;
+    color: rgb(146, 83, 204);
+    margin-bottom: 7px;
+    text-align: center;
+}
+.cris-titulo{
+    font-size: 48px;
+    padding: 12px 0;
+    color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.cris-texto{
+    display: flex;
+    text-align: center;
+    padding: 40px;
+    font-size: 36px;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
